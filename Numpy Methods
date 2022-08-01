@@ -1,0 +1,159 @@
+                                           ==============================
+============================================= NUMPY MOST USEFUL METHODS ===============================================
+                                           ===============================
+
+
+1.1D array,Accessing
+  ==> As python does not support arrays, numpy is used to create arrays in python.
+  
+  
+2.2D array
+  ==> numpy does not limit us at single dimensional, we can also create two-dimensional,multi-dimensional arrays.
+  
+  
+3.sort
+  ==> arrange all elements(either numbers/floats/Strings) in ascending order
+  
+  
+4.dtype
+  ==> returns the data type of the array inside the array.
+  
+  
+5.concatenate
+  ==> used to combine/add two arrays in numpy.
+  
+  
+6.min
+  ==> returns the least element in the array
+  
+  
+7.max
+  ==> returns the highest element in the array
+  
+  
+8.any
+  ==> checks whether the array contains non-zero/zero-elements, if array contains zero it returns False
+                                                                else returns True  ````Example=[1,2,34]===True
+                                                                                               [5,89,0]===False
+                                                                                               
+9.sum
+  ==> adds all the elements in the array
+  
+  
+10.astype
+  ==> used to convert one datatype to other/ it assigns the datatype as we provide respectively
+  
+  
+11.mean
+  ==> returns the average of all the elements in an array.
+  
+  
+12.shape
+  ==> returns the shape of our array(rows,columns)
+  
+  
+13.copy
+  ==> method to copy the elements of an array.
+  
+  
+14.round
+  ==> used to round the values in the array ````example[a=(9.6)] after rounding [a=(10)]`````
+  
+  
+15.np.ones()
+  ==> generates 1's of specified length
+  
+  
+16.np.zeros()
+  ==> generates 0's of specified length.
+  
+  
+17.numpy.random.random
+  ==> used to generate random numbers b/w the range.
+  
+  
+18.np.eye
+  ==> used to generate these kind of arrays
+        [[1., 0., 0., 0.],
+         [0., 1., 0., 0.],
+         [0., 0., 1., 0.],
+         [0., 0., 0., 1.]]
+         
+         
+19.np.arrange
+  ==> genrates a sequence of elements within the provided length.
+  
+  
+20.np.Capitalize
+  ==> used to convert string to an heading format [a='subscribe learn With students']
+                                                                    after capitalizing
+                                                                                [a='Subscribe Learn with Students']
+                                                                                
+21.lowercase
+  ==> used to convert all the characters in our string to lower case alphabets.
+  
+  
+22.uppercase
+  ==> used to convert all the characters in our string to upper case alphabets.
+  
+  
+23.median
+  ==> used to find the median in the array.
+  
+  
+24.std
+  ==> returns standard deviation of the array.
+  
+  
+25.add
+  ==> used to add two arrays.
+  
+  
+26.subtract
+  ==> used to subtract two arrays.
+  
+  
+27.multiply
+  ==> used to multiply two arrays.
+  
+  
+28.genfromtext
+  ==> used to read data from csv type of files.
+  
+  
+29.Linear algebra
+  ==> provides matrix's functions(like trace,determinent,rank,inverse).
+  
+  
+30.concatenate
+  ==> used to concatenate two arrays.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A = np.array([[6, 1, 1],
+              [4, -2, 5],
+              [2, 8, 7]])
+  
+print("Rank of A:", np.linalg.matrix_rank(A))
+
+  
+print("\nTrace of A:", np.trace(A))
+  
+print("\nDeterminant of A:", np.linalg.det(A))
+  
+print("\nInverse of A:\n", np.linalg.inv(A))
+  
+print("\nMatrix A raised to power 3:\n", np.linalg.matrix_power(A, 3))
